@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import FonImg from "../images/fon-img.jpg";
+import FonImg from "../../images/fon-img.jpg";
 
 export const HomeBox = styled.div`
   display: flex;

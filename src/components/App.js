@@ -1,7 +1,8 @@
 // import React from "react";
 // import styles from "./styles.scss";
 
-import { Home } from "../pages/Home";
+import { Home } from "../pages/Home/Home";
+
 
 // const onClickEvent = (e) => {
 //   e.preventDefault();

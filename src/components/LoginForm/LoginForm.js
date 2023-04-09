@@ -7,11 +7,10 @@ import {
   FormStyled,
   FieldStyled,
   ErrorMessageStyled,
-  TextStyled,
   InputContainer,
   ShowPassword,
-  ErrorStyled,
   InputBox,
+  FormTitle,
 } from "./LoginForm.styled";
 
 const passRegexp = /^\S+$/;
@@ -68,6 +67,7 @@ export const LoginForm = () => {
       {({ handleChange, values, errors, touched, setFieldTouched }) => {
         return (
           <FormStyled autoComplete="off">
+            <FormTitle>Join LolNet today</FormTitle>
             <InputContainer>
               <InputBox>
                 <FieldStyled type="email" name="email" placeholder="Email" />
@@ -96,8 +96,7 @@ export const LoginForm = () => {
               )} */}
             </InputContainer>
             <Button type="submit">Log in</Button>
-            <TextStyled>Don't have an account?</TextStyled>
-            <Button className="accent">Register</Button>
+            
           </FormStyled>
         );
       }}
