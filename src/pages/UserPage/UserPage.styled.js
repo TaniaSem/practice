@@ -16,7 +16,8 @@ export const UserBox = styled.div`
 export const Container = styled.div`
     width: 1280px;
     height: 100vh;
-    padding: 0 30px
+    padding: 0 30px;
+    
     /* border: 1px solid red; */
 `
 
