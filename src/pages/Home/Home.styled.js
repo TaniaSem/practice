@@ -8,6 +8,7 @@ export const HomeBox = styled.div`
   align-items: center;
   gap: 100px;
   padding: 40px;
+  position: fixed;
 
   background-image: url(${FonImg});
   background-position: center;
