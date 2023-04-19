@@ -8,13 +8,12 @@ export const HomeBox = styled.div`
   align-items: center;
   gap: 100px;
   padding: 40px;
-  position: fixed;
 
-  background-image: url(${FonImg});
+  /* background-image: url(${FonImg});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 100vh; */
 `;
 
 export const HomeTitle = styled.h1`

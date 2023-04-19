@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const List = styled.ul`
-position: relative;
+/* position: relative;
 left: 305px;
-width: 600px;
+width: 600px; */
 padding: 20px;
 border: 1px solid red;
 

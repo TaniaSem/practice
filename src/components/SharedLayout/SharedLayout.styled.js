@@ -1,29 +1,40 @@
 import styled from "styled-components";
 
+
+export const MainContainer = styled.div`
+  margin: 0 auto;
+  border: 1px solid blue;
+  width: 1280px;
+`
+
+export const SecondContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`
 export const HeaderBox = styled.header`
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    position: fixed;
-    width: 275px;
-    padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  width: 275px;
+  padding: 10px 8px;
 `
 
 export const NavBox = styled.nav`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
 `
 
 export const NavLink = styled.li`
-    font-size: 20px;
-    padding: 10px 28px;
-    :hover {
-        border-radius: 10px;
-        background: rgb(116 118 124 / 34%);
-        cursor: pointer;
-    }
+  font-size: 20px;
+  padding: 10px 28px;
+  :hover {
+    border-radius: 10px;
+    background: rgb(116 118 124 / 34%);
+    cursor: pointer;
+  }
 `
 
 export const HeaderBtn = styled.button`

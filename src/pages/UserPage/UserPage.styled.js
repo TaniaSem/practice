@@ -6,18 +6,14 @@ export const UserBox = styled.div`
   flex-direction: column;
   align-items: center;
 
-  background-image: url(${FonImg});
+  padding: 0 30px;
+
+  /* background-image: url(${FonImg});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 100vh; */
 `;
 
-export const Container = styled.div`
-    width: 1280px;
-    height: 100vh;
-    padding: 0 30px;
-    
-    /* border: 1px solid red; */
-`
+
 
